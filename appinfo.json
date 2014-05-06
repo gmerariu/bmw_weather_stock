@@ -4,35 +4,94 @@
     "resources": {
         "media": [
             {
-                "file": "images/watch-battery-normal.png",
-                "name": "WATCH_BATTERY_NORMAL",
+                "file": "images/clear-day.png",
+                "name": "CLEAR_DAY",
                 "type": "png"
             },
             {
-                "file": "images/watch-battery-charge.png",
-                "name": "WATCH_BATTERY_CHARGE",
+                "file": "images/clear-night.png",
+                "name": "CLEAR_NIGHT",
                 "type": "png"
             },
             {
-                "file": "images/bmw_logo_bk.png",
-                "name": "BMW_BK",
+                "file": "images/cloudy.png",
+                "name": "CLOUDY",
                 "type": "png"
             },
             {
-                "file": "images/bluetooth24x27.png",
-                "name": "BLUETOOTH_ON",
+                "file": "images/error.png",
+                "name": "ERROR",
                 "type": "png"
             },
             {
-                "characterRegex": "[0-9:]",
-                "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_16",
+                "file": "images/fog.png",
+                "name": "FOG",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-day.png",
+                "name": "PARTLY_CLOUDY_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-night.png",
+                "name": "PARTLY_CLOUDY_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/rain.png",
+                "name": "RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/sleet.png",
+                "name": "SLEET",
+                "type": "png"
+            },
+            {
+                "file": "images/snow.png",
+                "name": "SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/wind.png",
+                "name": "WIND",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_21",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_19",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_16",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_11",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_12",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_10",
                 "type": "font"
             },
             {
                 "characterRegex": "[0-9:]",
                 "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_39",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_24",
                 "type": "font"
             },
             {
@@ -44,92 +103,33 @@
             {
                 "characterRegex": "[0-9:]",
                 "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_24",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_39",
                 "type": "font"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_10",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_16",
                 "type": "font"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_12",
-                "type": "font"
-            },
-            {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_11",
-                "type": "font"
-            },
-            {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_16",
-                "type": "font"
-            },
-            {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_19",
-                "type": "font"
-            },
-            {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_21",
-                "type": "font"
-            },
-            {
-                "file": "images/wind.png",
-                "name": "WIND",
+                "file": "images/bluetooth24x27.png",
+                "name": "BLUETOOTH_ON",
                 "type": "png"
             },
             {
-                "file": "images/snow.png",
-                "name": "SNOW",
+                "file": "images/bmw_logo_bk.png",
+                "name": "BMW_BK",
                 "type": "png"
             },
             {
-                "file": "images/sleet.png",
-                "name": "SLEET",
+                "file": "images/watch-battery-charge.png",
+                "name": "WATCH_BATTERY_CHARGE",
                 "type": "png"
             },
             {
-                "file": "images/rain.png",
-                "name": "RAIN",
-                "type": "png"
-            },
-            {
-                "file": "images/partly-cloudy-night.png",
-                "name": "PARTLY_CLOUDY_NIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/partly-cloudy-day.png",
-                "name": "PARTLY_CLOUDY_DAY",
-                "type": "png"
-            },
-            {
-                "file": "images/fog.png",
-                "name": "FOG",
-                "type": "png"
-            },
-            {
-                "file": "images/error.png",
-                "name": "ERROR",
-                "type": "png"
-            },
-            {
-                "file": "images/cloudy.png",
-                "name": "CLOUDY",
-                "type": "png"
-            },
-            {
-                "file": "images/clear-night.png",
-                "name": "CLEAR_NIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/clear-day.png",
-                "name": "CLEAR_DAY",
+                "file": "images/watch-battery-normal.png",
+                "name": "WATCH_BATTERY_NORMAL",
                 "type": "png"
             }
         ]

@@ -52,6 +52,7 @@ function fetchStockQuote(symbol) {
           price = response.Data.LastPrice;
           price_change = response.Data.Change;
           console.log(price);
+          console.log(price_change);
         }
       }
     }
@@ -82,7 +83,7 @@ function getCurrentWeather (lon, lat) {
             send.icon = icon;
             send.temperature_f = Number(response.currently.temperature).toFixed(0);
             send.temperature_c = Number(FtoC(response.currently.temperature)).toFixed(0);
-            //send.weather_error = Number(price_change).toFixed(2);
+            send.error = Number(price_change).toFixed(2);
             send.location = Number(price).toFixed(2);
             
           }
