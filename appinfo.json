@@ -1,154 +1,160 @@
 {
-    "shortName": "BMW Fans",
-    "versionCode": 1,
+    "uuid": "421c8875-1951-4ea6-94e4-19ca9250b13b",
     "resources": {
         "media": [
             {
-                "file": "images/clear-day.png",
                 "name": "CLEAR_DAY",
-                "type": "png"
+                "type": "png",
+                "file": "images/clear-day.png"
             },
             {
-                "file": "images/clear-night.png",
                 "name": "CLEAR_NIGHT",
-                "type": "png"
+                "type": "png",
+                "file": "images/clear-night.png"
             },
             {
-                "file": "images/cloudy.png",
                 "name": "CLOUDY",
-                "type": "png"
+                "type": "png",
+                "file": "images/cloudy.png"
             },
             {
-                "file": "images/error.png",
                 "name": "ERROR",
-                "type": "png"
+                "type": "png",
+                "file": "images/error.png"
             },
             {
-                "file": "images/fog.png",
                 "name": "FOG",
-                "type": "png"
+                "type": "png",
+                "file": "images/fog.png"
             },
             {
-                "file": "images/partly-cloudy-day.png",
                 "name": "PARTLY_CLOUDY_DAY",
-                "type": "png"
+                "type": "png",
+                "file": "images/partly-cloudy-day.png"
             },
             {
-                "file": "images/partly-cloudy-night.png",
                 "name": "PARTLY_CLOUDY_NIGHT",
-                "type": "png"
+                "type": "png",
+                "file": "images/partly-cloudy-night.png"
             },
             {
-                "file": "images/rain.png",
                 "name": "RAIN",
-                "type": "png"
+                "type": "png",
+                "file": "images/rain.png"
             },
             {
-                "file": "images/sleet.png",
                 "name": "SLEET",
-                "type": "png"
+                "type": "png",
+                "file": "images/sleet.png"
             },
             {
-                "file": "images/snow.png",
                 "name": "SNOW",
-                "type": "png"
+                "type": "png",
+                "file": "images/snow.png"
             },
             {
-                "file": "images/wind.png",
                 "name": "WIND",
-                "type": "png"
+                "type": "png",
+                "file": "images/wind.png"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_21",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_19",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_16",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_11",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_12",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
-                "file": "fonts/Roboto-Condensed.ttf",
                 "name": "FONT_ROBOTO_CONDENSED_10",
-                "type": "font"
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
             },
             {
+                "name": "FONT_ROBOTO_BOLD_SUBSET_14",
+                "type": "font",
                 "characterRegex": "[0-9:]",
-                "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_24",
-                "type": "font"
+                "file": "fonts/Roboto-Bold.ttf"
             },
             {
-                "characterRegex": "[0-9:]",
-                "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_49",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9:]",
-                "file": "fonts/Roboto-Bold.ttf",
-                "name": "FONT_ROBOTO_BOLD_SUBSET_39",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9:]",
-                "file": "fonts/Roboto-Bold.ttf",
                 "name": "FONT_ROBOTO_BOLD_SUBSET_16",
-                "type": "font"
+                "type": "font",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Roboto-Bold.ttf"
             },
             {
-                "file": "images/bluetooth24x27.png",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_39",
+                "type": "font",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
+                "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+                "type": "font",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
+                "name": "FONT_ROBOTO_BOLD_SUBSET_24",
+                "type": "font",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
                 "name": "BLUETOOTH_ON",
-                "type": "png"
+                "type": "png",
+                "file": "images/bluetooth24x27.png"
             },
             {
-                "file": "images/bmw_logo_bk.png",
                 "name": "BMW_BK",
-                "type": "png"
+                "type": "png",
+                "file": "images/bmw_logo_bk.png"
             },
             {
-                "file": "images/watch-battery-charge.png",
                 "name": "WATCH_BATTERY_CHARGE",
-                "type": "png"
+                "type": "png",
+                "file": "images/watch-battery-charge.png"
             },
             {
-                "file": "images/watch-battery-normal.png",
                 "name": "WATCH_BATTERY_NORMAL",
-                "type": "png"
+                "type": "png",
+                "file": "images/watch-battery-normal.png"
             }
         ]
     },
-    "uuid": "421c8875-1951-4ea6-94e4-19ca9250b13b",
-    "versionLabel": "1.0.6",
-    "companyName": "Lipe_Giba",
     "capabilities": [
         "location"
     ],
+    "companyName": "Lipe_Giba",
+    "shortName": "BMW Fans",
     "longName": "BMW Fans",
     "watchapp": {
         "watchface": true
     },
+    "versionCode": 1,
     "appKeys": {
-        "icon": 2,
-        "temperature_c": 1,
         "error": 3,
         "location": 4,
+        "temperature_c": 1,
+        "icon": 2,
         "temperature_f": 0
-    }
+    },
+    "versionLabel": "1.0.6"
 }

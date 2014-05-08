@@ -13,8 +13,8 @@ static char *unit_layer="C";
 static bool c_or_f;
 static char *str_temp;
 static char *str_temp_F;
-static char *str_stock = "00.00";
-static char *str_stock_change = "88.88";
+static char *str_stock = " ";
+static char *str_stock_change = " ";
 
 TextLayer *text_day_layer;
 TextLayer *text_minute_layer;
@@ -287,10 +287,10 @@ static void window_load(Window *window) {
   layer_add_child(window_layer, text_layer_get_layer(text_minute_layer));
   
   // create wkday layer - this is where time goes
-  text_wkday_layer = text_layer_create(GRect(73, 80, 50, 30));
+  text_wkday_layer = text_layer_create(GRect(75, 84, 50, 30));
   text_layer_set_text_color(text_wkday_layer, GColorBlack);
   text_layer_set_background_color(text_wkday_layer, GColorClear);
-  text_layer_set_font(text_wkday_layer, font21);
+  text_layer_set_font(text_wkday_layer, font19);
   layer_add_child(window_layer, text_layer_get_layer(text_wkday_layer));
   
   // create day layer - this is where time goes
@@ -307,7 +307,7 @@ static void window_load(Window *window) {
   text_layer_set_text_alignment(text_date_layer, GTextAlignmentCenter);
   text_layer_set_text_color(text_date_layer, GColorWhite);
   text_layer_set_background_color(text_date_layer, GColorClear);
-  text_layer_set_font(text_date_layer, font21);
+  text_layer_set_font(text_date_layer, font19);
   layer_add_child(window_layer, text_layer_get_layer(text_date_layer));
 
   // create temperature layer - this is where the temperature goes
