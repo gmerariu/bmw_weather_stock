@@ -86,7 +86,7 @@ static void disp_update(void){
       unit_layer="C";
       text_layer_set_text(text_unit_layer, unit_layer);
       text_layer_set_text(text_temp_layer, str_temp);
-      text_layer_set_text(text_stock_layer, str_stock);
+      //text_layer_set_text(text_stock_layer, str_stock);
     } else {
       c_or_f = false;
       unit_layer="F";
@@ -95,7 +95,7 @@ static void disp_update(void){
       //text_layer_set_text(text_stock_layer, str_stock_change);
           }
   
-  //text_layer_set_text(text_stock_layer, str_stock);
+      text_layer_set_text(text_stock_layer, str_stock);
   
   
 }
@@ -209,10 +209,10 @@ static void battery_state_handler(BatteryChargeState charge) {
   bitmap_layer_set_bitmap(image_layer_BT, image_BT);
   }  else {
   bitmap_layer_set_bitmap(image_layer_BT, image_error);
-  vibes_long_pulse();
-  
+   
    
       }
+    vibes_short_pulse();
     
   }
 
