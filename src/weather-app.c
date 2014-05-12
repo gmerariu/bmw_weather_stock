@@ -182,7 +182,7 @@ static void p_battery_layer_update_callback(Layer *layer, GContext *ctx) {
   if (!battery_plugged) {
     graphics_draw_bitmap_in_rect(ctx, icon_battery_normal, GRect(0, 0, 35, 15));
     graphics_context_set_stroke_color(ctx, GColorBlack);
-    graphics_context_set_fill_color(ctx, GColorBlack);
+    graphics_context_set_fill_color(ctx, GColorWhite);
     graphics_fill_rect(ctx, GRect(16, 5, (uint8_t)((battery_level / 100.0) * 11.0), 4), 0, GCornerNone);
     } else {
     graphics_draw_bitmap_in_rect(ctx, icon_battery_charge, GRect(0, 0, 35, 15));
@@ -196,6 +196,7 @@ static void battery_state_handler(BatteryChargeState charge) {
   battery_level = charge.charge_percent;
   battery_plugged = charge.is_plugged;
   layer_mark_dirty(p_battery_layer);
+  vibes_short_pulse();
 }
 // End Battery code
 
