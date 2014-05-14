@@ -81,19 +81,18 @@ enum {
 };
 
 static void disp_update(void){
-    if (c_or_f == false){
-      c_or_f = true;
+    //if (c_or_f == false){
+      //c_or_f = true;
       unit_layer="C";
       text_layer_set_text(text_unit_layer, unit_layer);
       text_layer_set_text(text_temp_layer, str_temp);
       //text_layer_set_text(text_stock_layer, str_stock);
-    } else {
-      c_or_f = false;
-      unit_layer="F";
-      text_layer_set_text(text_unit_layer, unit_layer);
-      text_layer_set_text(text_temp_layer, str_temp_F);
-      //text_layer_set_text(text_stock_layer, str_stock_change);
-          }
+    //} else {
+      //c_or_f = false;
+      //unit_layer="F";
+      //text_layer_set_text(text_unit_layer, unit_layer);
+      //text_layer_set_text(text_temp_layer, str_temp_F);
+      //    }
   
       text_layer_set_text(text_stock_layer, str_stock);
   
@@ -196,7 +195,7 @@ static void battery_state_handler(BatteryChargeState charge) {
   battery_level = charge.charge_percent;
   battery_plugged = charge.is_plugged;
   layer_mark_dirty(p_battery_layer);
-  vibes_short_pulse();
+  //vibes_short_pulse();
 }
 // End Battery code
 
@@ -250,7 +249,7 @@ static void window_load(Window *window) {
   BatteryChargeState initial = battery_state_service_peek();
   battery_level = initial.charge_percent;
   battery_plugged = initial.is_plugged;
-  p_battery_layer = layer_create(GRect(109,0,35,15));
+  p_battery_layer = layer_create(GRect(112,0,35,15));
   layer_set_update_proc(p_battery_layer, p_battery_layer_update_callback);
   layer_add_child(window_get_root_layer(window), p_battery_layer);
   
@@ -263,7 +262,7 @@ static void window_load(Window *window) {
     
   
   // create battery level layer - this is where time goes
-  battery_level_layer = text_layer_create(GRect(121, 15, 20, 15));
+  battery_level_layer = text_layer_create(GRect(120, 15, 20, 15));
   text_layer_set_text_alignment(battery_level_layer, GTextAlignmentRight);
   text_layer_set_text_color(battery_level_layer, GColorWhite);
   text_layer_set_background_color(battery_level_layer, GColorClear);
@@ -390,7 +389,7 @@ static void app_message_init(void) {
 void handle_tap(AccelAxisType axis, int32_t direction) {
     
   //vibes_short_pulse();
-  disp_update();
+  //disp_update();
 }
 
 // show the date and time every minute
